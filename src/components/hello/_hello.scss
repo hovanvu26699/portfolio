@@ -1,0 +1,30 @@
+.helloContainer {
+    margin: 20px 0;
+    background-image: url("../../assets/IMG_code.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 660px 380px;
+    padding: 150px 0;
+
+    h3 {
+        font-size: 50px;
+        color: #0EE6B7;
+        font-weight: 300;
+    }
+
+    .myName {
+        font-size: 55px;
+        color: rgb(255, 255, 255);
+    }
+
+    .myJob {
+        font-size: 58px;
+        color: #0EE6B7;
+        letter-spacing: 0.050em;
+    }
+
+    h2,
+    h3 {
+        margin: 10px 0;
+    }
+}

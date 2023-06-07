@@ -1,0 +1,56 @@
+.headerContainer {
+    color: #fff;
+    padding: 20px 100px;
+    justify-content: space-between;
+
+    .headerTab {
+        .headerTabList {
+            justify-content: space-between;
+            padding: 0;
+
+            li {
+                padding: 0 20px;
+                font-size: 18px;
+                font-weight: 300;
+                transform: scale(1);
+                transition: all 0.2s ease;
+
+                &:hover {
+                    cursor: pointer;
+                    color: #0EE6B7;
+                    transform: scale(1.09);
+                }
+            }
+        }
+
+    }
+
+    .headerSocial {
+        .headerSocialList {
+            justify-content: space-between;
+            padding: 0;
+
+            li {
+                margin: 0 10px;
+                transform: rotate(0) scale(1);
+                transition: all 0.2s ease;
+
+                svg {
+                    font-size: 35px;
+                }
+
+                img {
+                    height: 27px;
+                    width: 27px;
+                }
+
+                &:hover {
+                    color: #8efeec;
+                    cursor: pointer;
+                    transform: rotate(15deg) scale(1.1);
+                }
+            }
+        }
+    }
+
+}

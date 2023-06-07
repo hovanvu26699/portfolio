@@ -1,0 +1,14 @@
+.listCompany {
+    display: flex;
+    justify-content: space-between;
+
+    .boxImg {
+        width: 400px;
+        border-radius: 15px;
+        box-shadow: 1px 1px 20px 5px #0EE6B7;
+
+        img {
+            width: 100%;
+        }
+    }
+}
